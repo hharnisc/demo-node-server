@@ -1,0 +1,28 @@
+{
+  "name": "demo-node-server",
+  "version": "1.0.0",
+  "description": "A node server with nodejs-dashboard enabled",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodejs-dashboard --layouts layout.js -- node -r nodejs-dashboard index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hharnisc/demo-node-server.git"
+  },
+  "keywords": [
+    "node",
+    "demo"
+  ],
+  "author": "hharnisc@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hharnisc/demo-node-server/issues"
+  },
+  "homepage": "https://github.com/hharnisc/demo-node-server#readme",
+  "dependencies": {
+    "micro": "^7.1.0",
+    "nodejs-dashboard": "^0.4.0",
+    "then-sleep": "^1.0.1"
+  }
+}
