@@ -6,4 +6,4 @@ const server = micro(async (req, res) => {
   return 'Hello world'
 })
 
-server.listen(3000)
+server.listen(80)
